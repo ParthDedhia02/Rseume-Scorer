@@ -1,0 +1,83 @@
+/* Gradient background */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #4A00E0, #8E2DE2);
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+textarea, input[type="file"], button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.result-section, pre {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    color: white;
+    overflow-x: auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chart-container {
+    width: 180px;
+    height: 180px;
+}
+
+.keywords-section {
+    flex: 1;
+    margin-left: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.progress-percentage {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
